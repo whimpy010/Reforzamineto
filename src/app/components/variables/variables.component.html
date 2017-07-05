@@ -1,0 +1,30 @@
+<table class="table table-inverse">
+
+ <tr>
+   <td> Varable String </td>
+   <td> {{ nombre }}</td>
+ </tr>
+
+ <tr>
+   <td> Varable String </td>
+   <td> {{ nombre | uppercase }}</td>
+ </tr>
+
+ <tr>
+   <td> Varable String </td>
+   <td> {{ nota + 100 }}</td>
+ </tr>
+
+</table>
+
+<button   type="button"
+          class="btn btn-success"
+          [disabled]="nombre.length!=0"
+          (click)="cambiar_nombre()">
+  Cambiar nombre
+</button>
+
+
+<br> <br>
+
+<input type="text"  class="form-control" placeholder="Escribe un nombre aquí" [(ngModel)]="nombre">

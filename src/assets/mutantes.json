@@ -1,0 +1,17 @@
+{
+	"mutantes":[
+		{
+			"nombre":"AlexelCapo",
+			"descripcion": "Alexelcapo es reconocido como uno de los youtubers más influyentes de la comunidad hispanohablante, siendo de los primeros en subir vídeos de Minecraft y otros juegos a la red."
+		},
+		{
+			"nombre":"Dayo",
+			"descripcion": "Es destacado por dar opiniones críticas, inteligentes y originales con un poco de humor directo y sencillo. Añadir cortos grabándose a sí mismo o su exquisita narración hacen más amena la experiencia de sus vídeos."
+		},
+		{
+			"nombre":"Felipe",
+			"descripcion": "No es nadie"
+		}
+
+	]
+}

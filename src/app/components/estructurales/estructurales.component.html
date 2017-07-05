@@ -1,0 +1,17 @@
+<h1 *ngIf="existo">Existo</h1>
+
+<h1 *ngIf="!existo">no existo </h1>
+
+<button type="button" class="btn btn-primary" (click)="existo = !existo">
+si o no?
+</button>
+
+<br>
+
+<ul class="list-group">
+  <li class="list-group-item"
+      *ngFor="let youtuber of Youtubers">
+      {{youtuber}}
+  </li>
+
+</ul>
